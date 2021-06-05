@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <title>POS</title>
+</head>
+<body>
+    
+    <div class="main">
+        <div class="left">
+            <div class="store-name-box"> 
+                <h1 id="store-name">History Menu</h1>
+            </div>
+            <div class="view-cart">
+                <a href="#" ><img class="cart-image" src="./images-final/shopping-cart-icon.svg" alt="cart-image"></a>
+                <a href="#"> <View class="view-cart-text">View Cart</h4></a>
+            </div>   
+                <div class="check-out-totals">
+                    <h2 class="sub-total">Subtotal:</h2>
+                    <h2 class="tax">Tax:</h2>
+                    <h2 class="total">Total:</h2>
+                </div>
+        </div>
+        
+        
+        
+        <div class="right disable-scrollbars">
+            <div class="top-gap-for-sticky">
+                <p class="greeting">Hello, traveler.<br>
+                    Here you will find the world's<br>
+                    greatest collection of treasures,<br>
+                    artifacts, accoutrements, and
+                    trinkets,<br> all curated by
+                    the most arduous<br>
+                    and fastidious of experts
+                    utilizing<br>
+                    state-of-the-art<br>
+                    <strong>definitely real</strong><br>
+                    Relic-Authenticity-Detecting(RAD)<br>
+                    technology.<br>
+                    As always, Khajiit haz wares, if you have coin.
+                </p>
+                <p class="disclaimer">Disclaimer: Technology neither recognized nor approved by the FDA. Use at your own risk.</p>
+            </div>
+            <h2 class="products-header">Inventory</h2>
+            <section class="row-one">
+                <h1 class="categories top-category">Languages of the Lost</h1> 
+                <div class="products-card">
+                    <h2 class="card-header">Dead Sea Scrolls</h2>
+                    <img class="card-image" src="./images-final/scrolls-resize-no-ratio.jpg" alt="dead sea scrolls">
+                    <h3 class="card-price">$1.50</h3>
+                    <button type="button" class="add-to-cart-button" data-price="150" data-name="Dead Sea Scrolls">Add to Cart</button>
+                    <div class="description-box">
+                        <h5 id="description-header">Description</h5>
+                        <p class="description">Hand-dipped in the ancient rejuvinating salts of the Dead Sea and aged to crisp perfection, these scrolls offer the absolute finest quality paper for all your heretical parchment needs. Features include but are not limited to cutting-edge rolling technology to hide from the prying eyes of the Inquisition.</p>
+                    </div>
+                </div>
+                <div class="products-card">
+                    <h2 class="card-header">Rosetta Stone</h2>
+                    <img class="card-image" src="./images-final/rosetta-resize.jpg" alt="rosetta stone">
+                    <h3 class="card-price">2.50</h3>
+                    <button type="button" class="add-to-cart-button" data-price="250" data-name="Rosetta Stone">Add to Cart</button>                                    
+                    <div class="description-box description-animation">
+                        <h5 id="description-header description-animation">Description</h5>
+                        <p class="description description-animation">The translation tool of the true language connoisseur. This Rosetta Stone is for the most refined of etymologists, who were expertly mixing and matching languages long before Google made it cool and pocket-sized.</p>
+                    </div>
+                </div>
+
+
+            </section>
+
+            <section class="row-two">
+                <h1 class="categories">Weapons of the Ancients</h1> 
+                <div class="products-card thor">
+                    <h2 class="card-header">Thor's Hammer</h2>
+                    <img class="card-image" src="./images-final/hammer-resize-no-aspect-ratio.jpg" alt="thor hammer">
+                    <h3 class="card-price">5.50</h3>
+                    <button type="button" class="add-to-cart-button" data-price="550" data-name="Thor's Hammer">Add to Cart</button>                                    
+                    <div class="description-box">
+                        <h5 id="description-header">Description</h5>
+                        <p class="description">Forged in the fiery dwarven furnaces of Svartalfheim, only the noblest and strongest of heroes can wield this gravity-laden paper-weight. Slay the World Serpent or build a hovel. With this hammer in hand, the world is your nail.</p>
+                    </div>    
+                </div>
+                <div class="products-card stick">
+                    <h2 class="card-header">Stick with Nails</h2>
+                        <img class="card-image" src="./images-final/stick-with-nails-resize-no-ap.jpg" alt="stick with nails">
+                        <h3 class="card-price">1.50</h3>
+                        <button type="button" class="add-to-cart-button" data-price="150" data-name="Stick with Nails">Add to Cart</button>                                    
+                        <div class="description-box">
+                            <h5 id="description-header">Description</h5>
+                            <p class="description">For the heartiest of warriors, so cool they were brandishing blunt objects and bashing bad guys before it was hip. A spikey take on the classic club, this will certainly surprise and delight your foes and friends alike.</p>
+                        </div>
+                </div>
+
+            </section>
+        
+        
+            <section class="row-three"> 
+                <h1 class="categories">Strength or Dex?</h1>
+                <div class="products-card armor">
+                    <h2 class="card-header">Suit of Armor</h2>
+                        <img class="card-image" src="./images-final/armor-resize-no-ap.jpg" alt="suit of armor">
+                        <h3 class="card-price">1.50</h3>
+                        <button type="button" class="add-to-cart-button" data-price="250" data-name="Suit of Armor">Add to Cart</button>                                    
+                        <div class="description-box">
+                            <h5 id="description-header">Description</h5>
+                            <p class="description">For the Leroy Jenkins afficianados. Dungeoning with friends while having zero regard for your own health or your Healer's patience and/or Mana pool? This sturdy set of plate will protect even the noobiest of aspiring Tanks. Fire resistance sold seperately.</p>
+                        </div> 
+                </div>
+                <div class="products-card loin">
+                    <h2 class="card-header">Loincloth</h2>
+                    <img class="card-image" src="./images-final/loin-cloth-crop-no-ap.jpg" alt="loincloth">
+                        <h3 class="card-price">1.50</h3>
+                        <button type="button" class="add-to-cart-button" data-price="250" data-name="Loincloth">Add to Cart</button>                                    
+                        <div class="description-box">
+                            <h5 id="description-header">Description</h5>
+                            <p class="description">Made from the wool and skin of only the finest grass-fed Nordic sheep, this product combines both breathability and warmth without sacrificing freedom-of-movement. As this protects only the most vital of areas, we recommend you <strong>git gud</strong> before use.</p>
+                        </div>
+                </div>
+            </section>
+            
+            <section class="row-four"> 
+                <h1 class="categories">Yesteryear's EVs</h1>
+                <div class="products-card mule">
+                    <h2 class="card-header">Mule and Buggy</h2>
+                    <img class="card-image" src="./images-final/mule-no-ap.jpg" alt="mule and buggy">
+                    <h3 class="card-price">1.50</h3>
+                    <button type="button" class="add-to-cart-button" data-price="150" data-name="Mule and Buggy">Add to Cart</button>                                    
+                    <div class="description-box">
+                        <h5 id="description-header">Description</h5>
+                        <p class="description">Before Uber put hard-working horses out of work, the Mule and Buggy was the pinnacle of travel for even the most poshest of peasants. These suspension-free rides would jar even the most stoic of travelers. Vomit bag sold separately. </p>
+                    </div> 
+                </div>
+                <div class="products-card royal">
+                    <h2 class="card-header">Royal Carriage</h2>
+                    <img class="card-image" src="./images-final/carriage-2-resize-no-ap.jpg" alt="royal carriage">
+                    <h3 class="card-price">2.50</h3>
+                    <button type="button" class="add-to-cart-button" data-price="250" data-name="Royal Carriage">Add to Cart</button>                                    
+                    <div class="description-box description-animation">
+                        <h5 id="description-header">Description</h5>
+                        <p class="description">Looking for a ride that screams "I invested in Doge early but also what is ostentatious?" Look no further, traveler. Wow your rapidly diminishing number of friends with the finest guilded carriage, hand-crafted by an increasingly frustrated proletariat.</p>
+                    </div>
+                </div>
+            </section>
+        
+        
+            <section class="row-five">
+                <h1 class="categories">Homey Hovels</h1> 
+                <div class="products-card castle">
+                    <h2 class="card-header">Castle</h2>
+                    <img class="card-image" src="./images-final/castle-no-ap.jpg" alt="castle">
+                    <h3 class="card-price">10.50</h3>
+                    <button type="button" class="add-to-cart-button" data-price="1050" data-name="Castle">Add to Cart</button>                                    
+                    <div class="description-box description-animation">
+                        <h5 id="description-header description-animation">Description</h5>
+                        <p class="description description-animation">When that arrow to the knee finally caps your adventuring days, retire in style and spend your golden years in this lavish palace, brought to you by the hard work of those who couldn't afford to set foot on the grounds. Just as nature intended.</p>
+                    </div>
+                </div>
+                <div class="products-card mushroom">
+                    <h2 class="card-header">Mushroom House</h2>   
+                    <img class="card-image" src="./images-final/mushroom1-no-ap.jpg" alt="mushroom home">  
+                    <h3 class="card-price">4.50</h3>
+                    <button type="button" class="add-to-cart-button" data-price="450" data-name="Mushroom Home">Add to Cart</button>                                    
+                    <div class="description-box description-animation">
+                        <h5 id="description-header description-animation">Description</h5>
+                        <p class="description description-animation">The Tiny Homes of yesteryear before the hip and homeless culturally appropriated what historically belonged to the strange mushroom-headed hominids known as the Toads of the Mushroom Kingdom. Litigation pending.</p>
+                    </div>
+                </div>
+            </section>
+            
+    
+         
+        </div>
+
+
+
+
+
+    </div>
+    <!-- shopping cart to toggle -->
+    <div class="hidden">
+        <h1 class="cart-header">Shopping Cart</h1>
+        
+        <div class="cart-wrapper">
+            <div class="cart-product-name"></div>
+            <div class="cart-change-quantity-container"></div>
+            <div class="cart-product-price"></div>
+        </div>
+        
+        
+        <div class="cart-totals">
+            <h3 class="cart-sub-total">Subtotal:</h3>
+            <h3 class="cart-tax">Sales Tax:</h3>
+            <h2 class="cart-total">Total:</h2>
+        </div>
+            <button class="check-out-button" type="button">Check Out</button>
+            <p class="back-to-store">Back to Store</p>
+    </div>
+
+    <!-- checkout menu to toggle -->
+    <div class="checkout-hidden">  
+        <form>
+            <div class="final-check-out-totals">
+                <h1 class="final-check-out-total">Total:</h1>
+                <h2 class="final-check-out-tax">Tax:</h2>
+                <h2 class="final-check-out-subtotal">Subtotal:</h2>
+            </div>
+            <div class="tender-type-box">
+                <for= id="tender-type" for="tender-type">Tender Type:</label>
+            </div>
+            <div class="tender-type-cash">
+                <label for="cash">Cash:</label><br>
+                <input type="number" id="cash" name="cash" placeholder="$0.00">
+                <button class="change-button" type="button">Enter</button> <br>
+                <p class="change">Change: $0</p>
+            </div>
+            <div class="tender-type-card">
+                <label for="card">Card Number:</label><br>
+                <input type="number" id="card" name="card" placeholder="000000000000000000"><br>
+                <label for="month day year" id="card-exp-date" name="month" >Exp. Date:</label>
+                <label for="cvv" id="cvv-label">CVV:</label><br>
+                <input type="number" id="month" name="month" maxlength="2" style="width: 1.5rem">
+                <input type="number" id="day" name="day" maxlength="2" style="width: 1.5rem">
+                <input type="number" id="year" name="year" maxlength="4" style="width: 3rem">   
+                <input type="number" size=4 id="cvv" name="cvv" placeholder="000" style="width: 3rem">
+                
+            </div>
+            <button class="final-check-out-button" type="submit">Submit Payment</button>
+            <p class="back-to-cart">Back to Store</p>
+    
+        </form>
+    </div>
+    <div class="receipt-container hidden">
+        <h1 class="receipt-header">Receipt</h1>
+        <div class="receipt-column">
+            <section class="receipt-item-name">Items</section>
+            <section class="receipt-item-quantity">Quantity</section>
+        </div>
+        <section class="receipt-totals">
+            <p class="receipt-subtotal">Subtotal:</p>
+            <p class="receipt-tax">Tax:</p>
+            <p class="receipt-total">Total:</p>
+            <p class="on-cash-or-card">placeholder:</p>    
+        </section>
+        <p class="receipt-close">Close</p>
+    </div>
+    
+    <script src="./script.js" text="text/JavaScript"></script>
+</body>
+</html>
